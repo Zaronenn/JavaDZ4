@@ -35,7 +35,7 @@ public class BonusServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+   @Test
     public void UnregisteredUserBonusTest() {  // Тест бонуса не зарегистрированного пользователя
         BonusService service = new BonusService();
 
@@ -51,7 +51,7 @@ public class BonusServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+   @Test
     public void bonusCalculationTestForUnregisteredUser() { // Тест бонуса 3% если пользователь не зарегистрирован
         BonusService service = new BonusService();
 
