@@ -67,7 +67,7 @@ public class BonusServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+   @Test
     public void BonusTestAboveTheLimitForAFegisteredUser() {  // Тест бонусы выше лимита у зарегистрированного пользователя
         BonusService service = new BonusService();
 
